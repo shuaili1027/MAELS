@@ -1,0 +1,30 @@
+device = cuda
+num_workers = 2
+pin_memory = True
+log_dir = Logging
+database = mnist
+dataset = mnist
+file = Mnist
+target_num = 1
+stage = stage1
+resume_path = * (custom)
+stage1_path = * (custom)
+batch_size = 128
+img_size = 64
+img_channels = 1
+noise_dim = 32
+label_dim = 10
+varying_dim = 2
+g_lr = 0.0002
+d_lr = 0.0002
+c_lr = 0.0002
+info_lr = 0.0002
+en_lr = 0.0002
+beta1 = 0.5
+beta2 = 0.999
+max_epoch = 200
+showing_num = 5
+c_split = 5
+seed = 2023920
+save_fig_name_stage1 * (custom)
+save_fig_name_stage2 * (custom)
