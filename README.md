@@ -16,9 +16,9 @@ This repo includes the official Pytorch implementation of **Our Method**.
 
 - **Our Method** allows user to realize a legitimate transition from non-adversarial examples to adversarial ones through a supervised semantic-transformation generative model (**SSTGM**).
 
-- ![image](https://drive.google.com/file/d/1UZwHj1e-fGajroOomHGTAxtBkn59X2_R/view?usp=sharing)
+![image](https://github.com/shuaili1027/MAELS/blob/main/Images/figure-1.png)
 
-- Transitions towards adversarial on manifolds with continuous semantics. By manipulating the two dimensions (`1` and `2`) of the semantic code representation, denoted as `z3`, we presented `5 × 5` image matrices on the left side. 
+Transitions towards adversarial on manifolds with continuous semantics. By manipulating the two dimensions (`1` and `2`) of the semantic code representation, denoted as `z3`, we presented `5 × 5` image matrices on the left side. 
 On the right side, we generated corresponding `5 × 5` heatmaps utilizing the evaluation of `MobileNetV2`. These heatmaps consisted of the prediction results and associated confidences. The images correctly classified by `MobileNetV2`
 (non-adversarial) were highlighted with `green squares`, while the misclassified ones (adversarial) were marked with `red squares`.
 
